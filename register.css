@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header ul a {
+    margin-left: 50px;
+    list-style-type: none;
+    font-size: smaller;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+header ul a li{
+    list-style-type: none;
+}
+
+header ul a li:hover{
+    border: 3px solid #D434FE;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color:#903AFF;
+    cursor: pointer;
+}
+
+.link{
+    color: #D434FE;
+}
+
+.head{
+    font-size: 25px;
+    margin-left: -250px;
+}
+
+.got{
+    color: #fff;
+}
+
+/* 2ND REGISTER BUTTON */
+
+.reg button{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    background: rgb(144,58,255);
+    background: linear-gradient(90deg, rgba(144,58,255,1) 0%, rgba(175,121,244,1) 35%, rgba(0,212,255,1) 100%);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.reg button:hover{
+    background: rgb(144,58,255);
+    transition: all ease .4s;
+    border-bottom: 0px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #140D27;
+}
+
+.get{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.ash form{
+    display: flex;
+    flex-direction: column;
+}
+
+.info .un{
+    list-style: none;
+}
+
+.un{
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+
+main{
+   display: flex;
+}
+
+.tree{
+    width: 500px;
+    height: 500px;
+}
+
+
+.un li{
+    margin-left: 10px ;
+}
+
+.forms{
+     background-color: transparent;
+     border: gray 2px solid;
+     margin-top: 20px;
+     color: #fff;
+     padding: 10px;
+     width: 500px;
+}
+
+.forms::placeholder{
+    color: #fff;
+}
+
+.mation{
+    width: 100px;
+}
+
+.street{
+    width: 119px;
+}
+
+.open{
+    width: 272px;
+}
+
+.get-container{
+    margin-left: 50px;
+}
+
+#submit{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    background: rgb(144,58,255);
+    background: linear-gradient(90deg, rgba(144,58,255,1) 0%, rgba(175,121,244,1) 35%, rgba(0,212,255,1) 100%);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#submit:hover{
+    background: rgb(144,58,255);
+    transition: all ease .4s;
+    border-bottom: 0px;
+}
+
+.smok{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    opacity: 0;
+    animation: smokeEffect 5s linear infinite;
+    left: 10px;
+    top: -250px;
+}
+
+.smok:before{
+    content: "";
+    display: block;
+    position: absolute;
+    margin-left: -55px;
+    margin-top: -55px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    z-index: -1;
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      }
+      
+      /* Modal Content */
+      .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+      }
+      
+      /* The Close Button */
+      .close {
+        color: #aaaaaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      
+      .close:hover,
+      .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+      } box-shadow: 3px 5px 0 black;
+    opacity: 0;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+}
+
+
+
+@keyframes smokeEffect {
+    0% {
+        transform: translateY(0) scale(1);
+        opacity: 0.5;
+    }
+    50% {
+        transform: translateY(-200px) scale(1.5);
+        opacity: 0.2;
+    }
+    100% {
+        transform: translateY(-400px) scale(2);
+        opacity: 0;
+    }
+}
+
+
+.smoke{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    opacity: 0;
+    animation: smokeEffect 5s linear infinite;
+    left: 250px;
+    top: 250px;
+}
+
+.smoke:before{
+    content: "";
+    display: block;
+    position: absolute;
+    margin-left: -55px;
+    margin-top: -55px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    z-index: -1;
+    box-shadow: 3px 5px 0 black;
+    opacity: 0;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+}
+
+@keyframes smokeEffect {
+    0% {
+        transform: translateY(0) scale(1);
+        opacity: 0.5;
+    }
+    50% {
+        transform: translateY(-200px) scale(1.5);
+        opacity: 0.2;
+    }
+    100% {
+        transform: translateY(-400px) scale(2);
+        opacity: 0;
+    }
+}
+
+@media(max-width: 480px) {
+
+    header{
+        display: none;
+    }
+
+    .thesis{
+        display: none;
+    }
+
+    .info{
+        position: absolute;
+        top: 700px;
+        left: 50px;
+    }
+
+    .ash{
+        margin-left: -50px;
+    }
+
+    #submit{
+        margin-left: 120px;
+    }
+
+    .smoke{
+        margin-left: 400px;
+    }
+
+}

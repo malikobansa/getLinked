@@ -17,6 +17,7 @@ a{
     cursor: pointer;
 }
 
+
 /* BODY */
 body{
     font-family: 'Poppins', sans-serif;
@@ -34,17 +35,27 @@ header ul{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+    list-style-type: none;
 }
 
-header ul li{
+header ul a {
     margin-left: 50px;
+    list-style-type: none;
+    font-size: smaller;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+header ul a li{
     list-style-type: none;
     font-size: smaller;
     color: #fff;
     cursor: pointer;
 }
 
-header ul li:hover{
+header ul a li:hover{
     border: 3px solid #D434FE;
     border-top: 0px;
     border-left: 0px;
@@ -66,6 +77,10 @@ header ul li:hover{
 .head{
     font-size: 25px;
     margin-left: -250px;
+}
+
+.got{
+    color: #fff;
 }
 
 /* 2ND REGISTER BUTTON */
@@ -1645,9 +1660,6 @@ footer{
         margin-left: 330px;
     }
 
-    .parts{
-
-    }
 
     .pacons{
         /* 50 pixels of space added between rows and 30 pixels added between columns  */
@@ -1686,15 +1698,58 @@ footer{
 
        .priv-text{
         text-align: center;
+        margin-left: 50px;
        }
 
        .o{
         text-align: left;
-        margin-left: 60px;
+        margin-left: 20px;
        }
 
        .priv-text .pa {
         width: 400px;
+        margin-left: -50px;
+       }
+
+       .rect{
+        margin-left: -5px;
+        width: 295px;
+        height: 735px;
+       }
+
+       .boy{
+        margin-left: -25px;
+       }
+
+       footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+
+       .foot p{
+        width:271px;
+       }
+
+       .foot{
+        margin-left: 150px;
+       }
+
+       .middles{
+        margin-top: 40px;
+        margin-left: -150px;
+       }
+
+       .ends{
+        margin-top: 40px;
+        margin-left: -150px;
+       }
+
+       .rights{
+        font-size: 15px;
+        margin-left: 100px;
+
        }
 
   }
